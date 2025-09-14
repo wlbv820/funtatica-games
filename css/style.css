@@ -303,6 +303,66 @@
       outline: 2px solid #ffd700;
       outline-offset: 2px;
     }
+/* ---------- Privacy Policy Page ---------- */
+.privacy-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e3f2fd 50%, #ffffff 100%);
+  padding: 120px 0 60px; /* top padding to avoid navbar overlap */
+}
+
+.privacy-title {
+  color: #1565c0;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(21, 101, 192, 0.2);
+}
+
+.privacy-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 2rem;
+}
+.privacy-card p {
+  color: #424242;
+  text-shadow: 0 3px 5px rgba(0,0,0,0.05);
+  text-align: justify;
+}
+
+.privacy-card p a{
+  color: blue;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.section-heading {
+  color: #1976d2;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.sub-heading {
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+
+.back-home-link {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.back-home-link:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+.advertisers-list{
+  margin-left: 50px;
+}
+.advertisers-list a{
+  font-weight: 500;
+  text-decoration: none;
+}
 
 
 
